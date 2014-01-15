@@ -1,6 +1,4 @@
 #include <iostream>
-#include <sstream>
-#include <vector>
 #include <stdlib.h>
 
 using namespace std;
