@@ -11,6 +11,7 @@ int main()
 	string word;
 
 	while (getline(cin, word, ' '))
+	{
 		for(int i = 0; i < word.length(); i++)
 		{
 			if (!isspace(word[i]))
@@ -19,6 +20,7 @@ int main()
 				break;
 			}
 		}
+	}
 
 	cout << "antall ord: " << wordCount << endl;
 }
